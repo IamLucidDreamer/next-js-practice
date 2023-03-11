@@ -4,8 +4,8 @@ function Users(props) {
     return (
         <div>Users list Function
             {
-                users.map((val) => {
-                    return <h1>{val?.name}</h1>
+                users.map((val, index) => {
+                    return <h1 key={index}>{val?.name}</h1>
                 }
                 )}
         </div>
