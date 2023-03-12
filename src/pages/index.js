@@ -19,6 +19,9 @@ const index = () => {
             <Link href="/product">
                 product
             </Link>
+            <Link href="/users">
+                Users
+            </Link>
             <button onClick={handleClick}>
                 PLace Order
             </button>
